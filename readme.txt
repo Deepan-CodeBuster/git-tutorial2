@@ -1,4 +1,4 @@
-#steps for creating a new repo file and pull to github
+##steps for creating a new repo file and pull to github
 
 git add . 
 git commit -m "your message"
@@ -7,7 +7,7 @@ git branch -M main
 git push origin main
 
 
-#To push an new file to github
+##To push an new file to github
 git add .
 git commit -m "you message"
 git push origin main
