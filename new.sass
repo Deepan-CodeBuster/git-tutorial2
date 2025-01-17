@@ -1,0 +1,17 @@
+$primary-color: #333;
+$secondary-color: #666;
+
+@mixin flexbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  @include flexbox;
+  background-color: $primary-color;
+  color: $secondary-color;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
